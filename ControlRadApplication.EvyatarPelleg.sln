@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMVVMCalculator", "ControlRadApplication.EvyatarPelleg\SimpleMVVMCalculator.csproj", "{E1F1CC51-D5FF-43E1-BE7F-459A59637E1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E413D67-C198-4081-A270-67E9DF0CC85E} = {9E413D67-C198-4081-A270-67E9DF0CC85E}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppFunctions", "CppFunctions\CppFunctions.vcxproj", "{9E413D67-C198-4081-A270-67E9DF0CC85E}"
 EndProject

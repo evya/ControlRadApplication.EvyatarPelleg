@@ -10,7 +10,7 @@
     internal class CalculateViewModel
     {
 
-        public const string CppDllRelativePath = @"..\..\..\..\x64\Release\CppFunctions.dll";
+        public const string CppDllRelativePath = @".\CppFunctions.dll";
 
         [DllImport(CppDllRelativePath, CallingConvention = CallingConvention.Cdecl)]
 

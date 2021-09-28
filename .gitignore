@@ -31,7 +31,15 @@
 *.out
 *.app
 
+*.exp
+*.pdb
+
 .vs
 /ControlRadApplication.EvyatarPelleg/bin/
 /ControlRadApplication.EvyatarPelleg/obj/
 
+/CppFunctions/Debug/
+/CppFunctions/x64/
+
+/Debug/
+/x64/
